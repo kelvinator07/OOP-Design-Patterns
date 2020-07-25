@@ -1,4 +1,4 @@
-package com.geekykel;
+package com.geekykel.singletonpattern;
 
 public class AppConfig {
     public int timeout;
