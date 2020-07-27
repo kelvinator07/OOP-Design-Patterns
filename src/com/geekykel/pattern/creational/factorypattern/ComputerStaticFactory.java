@@ -1,10 +1,8 @@
-package com.geekykel;
+package com.geekykel.pattern.creational.factorypattern;
 
-public class ComputerSimpleFactory {
+public class ComputerStaticFactory {
 
-    // it may contain some fields
-
-    public Computer newInstance(String type) {
+    public static Computer newInstance(String type) {
         if (type.equals("Computer")) {
             return new Computer();
         } else if (type.equals("PC")) {

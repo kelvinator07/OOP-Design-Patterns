@@ -1,4 +1,4 @@
-package com.geekykel;
+package com.geekykel.pattern.creational.factorypattern;
 
 public class Motor {
     String model;

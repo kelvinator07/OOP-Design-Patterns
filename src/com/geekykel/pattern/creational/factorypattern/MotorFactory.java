@@ -1,4 +1,4 @@
-package com.geekykel;
+package com.geekykel.pattern.creational.factorypattern;
 
 import java.util.Scanner;
 
@@ -13,6 +13,8 @@ public class MotorFactory {
             System.out.println(motor);
         } else {
             System.out.println(motor.getClass().getName() + " " + motor.model + " " + motor.power);
+            System.out.println(motor.getClass().getName() + "={model:" + motor.model + ",power:" + motor.power);
         }
+        // Electric motor={model:R-45,power:1000}
     }
 }
