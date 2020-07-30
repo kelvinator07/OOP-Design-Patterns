@@ -1,4 +1,4 @@
-package com.geekykel.singletonpattern;
+package com.geekykel.pattern.creational.singletonpattern;
 
 public class SingletonMain {
 
