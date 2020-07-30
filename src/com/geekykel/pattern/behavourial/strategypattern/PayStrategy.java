@@ -1,4 +1,4 @@
-package com.geekykel;
+package com.geekykel.pattern.behavourial.strategypattern;
 
 /**
  * Common interface for all strategies.

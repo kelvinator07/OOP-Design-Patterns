@@ -1,4 +1,4 @@
-package com.geekykel;
+package com.geekykel.pattern.behavourial.strategypattern;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.geekykel.ClientPayStrategy.formatAmount;
+import static com.geekykel.pattern.behavourial.strategypattern.ClientPayStrategy.formatAmount;
 
 /**
  * Concrete strategy. Implements PayPal payment method.

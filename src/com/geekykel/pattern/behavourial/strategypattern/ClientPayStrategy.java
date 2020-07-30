@@ -1,4 +1,4 @@
-package com.geekykel;
+package com.geekykel.pattern.behavourial.strategypattern;
 
 import java.io.BufferedReader;
 import java.io.IOException;
